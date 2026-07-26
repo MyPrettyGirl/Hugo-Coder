@@ -1,7 +1,8 @@
 ![GitHub followers](https://img.shields.io/github/followers/MyPrettyGirl)
+![GitHub watchers](https://img.shields.io/github/watchers/MyPrettyGirl/Hugo-Coder)
 ![GitHub forks](https://img.shields.io/github/forks/MyPrettyGirl/Hugo-Coder)
 ![GitHub Repo stars](https://img.shields.io/github/stars/MyPrettyGirl/Hugo-Coder)
-![GitHub watchers](https://img.shields.io/github/watchers/MyPrettyGirl/Hugo-Coder)
+
 ![GitHub License](https://img.shields.io/github/license/MyPrettyGirl/Hugo-Coder)
 ![GitHub branch count](https://img.shields.io/github/branches/MyPrettyGirl/Hugo-Coder)
 ![GitHub language count](https://img.shields.io/github/languages/count/MyPrettyGirl/Hugo-Coder)
