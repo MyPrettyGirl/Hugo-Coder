@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://myprettygirl.github.io/Hugo-Coder/authors/</loc>
-  </url><url>
-    <loc>https://myprettygirl.github.io/Hugo-Coder/categories/</loc>
-  </url><url>
-    <loc>https://myprettygirl.github.io/Hugo-Coder/series/</loc>
-  </url><url>
-    <loc>https://myprettygirl.github.io/Hugo-Coder/tags/</loc>
-  </url><url>
-    <loc>https://myprettygirl.github.io/Hugo-Coder/</loc>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	
+		<sitemap>
+			<loc>https://myprettygirl.github.io/Hugo-Coder/en/sitemap.xml</loc>
+			
+		</sitemap>
+	
+		<sitemap>
+			<loc>https://myprettygirl.github.io/Hugo-Coder/zh/sitemap.xml</loc>
+			
+		</sitemap>
+	
+		<sitemap>
+			<loc>https://myprettygirl.github.io/Hugo-Coder/jp/sitemap.xml</loc>
+			
+		</sitemap>
+	
+</sitemapindex>
