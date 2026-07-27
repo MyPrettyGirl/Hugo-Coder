@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <title>
+   · 知影科技
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Xuwen Yu">
+<meta name="description" content="
+  Github Pages
+  
+    
+    链接到标题
+  
+
+CNAME 记录应始终指向 .github.io
+或 .github.io，不包含仓库名称。
+用户网站
+项目网站.github.io/
+
+  git配置SSH key并连接Github
+  
+    
+    链接到标题
+  
+
+生成对应github账号邮箱地址的ssh key
+ssh-keygen -t rsa -C &lt;account@email.com&gt;
+将&rsquo;.ssh/id_rsa/id_rsa.pub&rsquo;文件里的密钥添加到github主页个人设置里的SSH and GPG keys
+
+  Windows下解决使用git远程SSH连接github仓库时端口报错
+  
+    
+    链接到标题
+  
+
+测试连接
+&lsquo;ssh -T git@github.com&rsquo;
+报错
+&lsquo;ssh: connect to host github.com port 22: Connection refused&rsquo;
+在git路径下的配置文件/Git/etc/ssh/ssh_config末尾加上
+&rsquo;&rsquo;&rsquo;
+Host github.com
+User 568725036@qq.com
+Hostname ssh.github.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/id_rsa
+Port 443
+&rsquo;&rsquo;&#39;">
+<meta name="keywords" content="blog,developer,personal">
+
+
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="知影科技">
+	<meta name="twitter:description" content="Github Pages 链接到标题 CNAME 记录应始终指向 .github.io 或 .github.io，不包含仓库名称。
+用户网站 项目网站.github.io/
+git配置SSH key并连接Github 链接到标题 生成对应github账号邮箱地址的ssh key ssh-keygen -t rsa -C &lt;account@email.com&gt; 将’.ssh/id_rsa/id_rsa.pub’文件里的密钥添加到github主页个人设置里的SSH and GPG keys
+Windows下解决使用git远程SSH连接github仓库时端口报错 链接到标题 测试连接 ‘ssh -T git@github.com’ 报错 ‘ssh: connect to host github.com port 22: Connection refused’
+在git路径下的配置文件/Git/etc/ssh/ssh_config末尾加上 ’’’ Host github.com User 568725036@qq.com Hostname ssh.github.com PreferredAuthentications publickey IdentityFile ~/.ssh/id_rsa Port 443 ’’&#39;">
+
+<meta property="og:url" content="https://myprettygirl.github.io/Hugo-Coder/zh/posts/20260727/">
+	<meta property="og:site_name" content="知影科技">
+	<meta property="og:title" content="知影科技">
+	<meta property="og:description" content="Github Pages 链接到标题 CNAME 记录应始终指向 .github.io 或 .github.io，不包含仓库名称。
+用户网站 项目网站.github.io/
+git配置SSH key并连接Github 链接到标题 生成对应github账号邮箱地址的ssh key ssh-keygen -t rsa -C &lt;account@email.com&gt; 将’.ssh/id_rsa/id_rsa.pub’文件里的密钥添加到github主页个人设置里的SSH and GPG keys
+Windows下解决使用git远程SSH连接github仓库时端口报错 链接到标题 测试连接 ‘ssh -T git@github.com’ 报错 ‘ssh: connect to host github.com port 22: Connection refused’
+在git路径下的配置文件/Git/etc/ssh/ssh_config末尾加上 ’’’ Host github.com User 568725036@qq.com Hostname ssh.github.com PreferredAuthentications publickey IdentityFile ~/.ssh/id_rsa Port 443 ’’&#39;">
+	<meta property="og:locale" content="zh">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+
+
+
+
+<link rel="canonical" href="https://myprettygirl.github.io/Hugo-Coder/zh/posts/20260727/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/Hugo-Coder/css/coder.min.f6b1b35a7b02521b25338f6cf58975f9980a6c12847763fe35a48307758cd1e7.css" integrity="sha256-9rGzWnsCUhslM49s9Yl1&#43;ZgKbBKEd2P&#43;NaSDB3WM0ec=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/Hugo-Coder/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css" integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/img/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="https://myprettygirl.github.io/Hugo-Coder/zh/">
+      知影科技
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/zh/Hugo-Coder/zh/search/">搜索</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/Hugo-Coder/zh/">归档</a>
+            </li>
+          
+        
+        
+          
+          
+          
+            
+              
+                <li class="navigation-item menu-separator">
+                  <span>|</span>
+                </li>
+                
+              
+              <li class="navigation-item">
+                <a href="/Hugo-Coder/posts/20260727/">English</a>
+              </li>
+            
+          
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://myprettygirl.github.io/Hugo-Coder/zh/posts/20260727/">
+              
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="0001-01-01T00:00:00Z">
+                一月 1, 0001
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              阅读时间：2 分钟
+            </span>
+          </div>
+          
+          
+          
+        </div>
+      </header>
+
+      
+
+
+      <div class="post-content">
+        
+        <h1 id="github-pages">
+  Github Pages
+  <a class="heading-link" href="#github-pages">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h1>
+<p>CNAME 记录应始终指向 <!-- raw HTML omitted -->.github.io
+或 <!-- raw HTML omitted -->.github.io，不包含仓库名称。</p>
+<p>用户网站
+项目网站<!-- raw HTML omitted -->.github.io/<!-- raw HTML omitted --></p>
+<h1 id="git配置ssh-key并连接github">
+  git配置SSH key并连接Github
+  <a class="heading-link" href="#git%e9%85%8d%e7%bd%aessh-key%e5%b9%b6%e8%bf%9e%e6%8e%a5github">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h1>
+<p>生成对应github账号邮箱地址的ssh key
+<code>ssh-keygen -t rsa -C &lt;account@email.com&gt;</code>
+将&rsquo;.ssh/id_rsa/id_rsa.pub&rsquo;文件里的密钥添加到github主页个人设置里的SSH and GPG keys</p>
+<h1 id="windows下解决使用git远程ssh连接github仓库时端口报错">
+  Windows下解决使用git远程SSH连接github仓库时端口报错
+  <a class="heading-link" href="#windows%e4%b8%8b%e8%a7%a3%e5%86%b3%e4%bd%bf%e7%94%a8git%e8%bf%9c%e7%a8%8bssh%e8%bf%9e%e6%8e%a5github%e4%bb%93%e5%ba%93%e6%97%b6%e7%ab%af%e5%8f%a3%e6%8a%a5%e9%94%99">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h1>
+<p>测试连接
+&lsquo;ssh -T <a href="mailto:git@github.com" >git@github.com</a>&rsquo;
+报错
+&lsquo;ssh: connect to host github.com port 22: Connection refused&rsquo;</p>
+<p>在git路径下的配置文件/Git/etc/ssh/ssh_config末尾加上
+&rsquo;&rsquo;&rsquo;
+Host github.com
+User <a href="mailto:568725036@qq.com" >568725036@qq.com</a>
+Hostname ssh.github.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/id_rsa
+Port 443
+&rsquo;&rsquo;'</p>
+<h1 id="配置账号和密码">
+  配置账号和密码
+  <a class="heading-link" href="#%e9%85%8d%e7%bd%ae%e8%b4%a6%e5%8f%b7%e5%92%8c%e5%af%86%e7%a0%81">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h1>
+<p>$ git config &ndash;global user.name &ldquo;&lt;github_username&gt;&rdquo; #github用户名
+$ git config &ndash;global user.email &ldquo;&lt;github_email&gt;&rdquo; #github注册邮箱</p>
+<h1 id="安装hexo">
+  安装hexo
+  <a class="heading-link" href="#%e5%ae%89%e8%a3%85hexo">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h1>
+<p>npm install hexo -g</p>
+<h1 id="安装hexo依赖">
+  安装hexo依赖
+  <a class="heading-link" href="#%e5%ae%89%e8%a3%85hexo%e4%be%9d%e8%b5%96">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h1>
+<p>npm install &ndash;save hexo-deployer-git</p>
+<h1 id="新建博客目录">
+  新建博客目录
+  <a class="heading-link" href="#%e6%96%b0%e5%bb%ba%e5%8d%9a%e5%ae%a2%e7%9b%ae%e5%bd%95">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h1>
+<p>&lsquo;cd <!-- raw HTML omitted -->
+&lsquo;hexo init&rsquo;
+hexo n == hexo new
+hexo g == hexo generate
+hexo s == hexo server
+hexo d == hexo deploy</p>
+<h1 id="hexo-连接-github仓库">
+  hexo 连接 github仓库
+  <a class="heading-link" href="#hexo-%e8%bf%9e%e6%8e%a5-github%e4%bb%93%e5%ba%93">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h1>
+<p>新建Repositoryname &lsquo;<!-- raw HTML omitted -->.github.io&rsquo;
+Public，Add a README file,Create</p>
+<p>在hexo路径下编辑config
+&rsquo;&rsquo;&rsquo;
+deploy:
+type: git
+repository: <a href="mailto:git@github.com" >git@github.com</a>:MyPrettyGirl/MyPrettyGirl.github.io.git
+branch: main
+&rsquo;&rsquo;&rsquo;</p>
+<h1 id="hexo-d命令报错-error-deployer-not-found-git">
+  hexo d命令报错 ERROR Deployer not found: git
+  <a class="heading-link" href="#hexo-d%e5%91%bd%e4%bb%a4%e6%8a%a5%e9%94%99-error-deployer-not-found-git">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h1>
+<p>npm install hexo-deployer-git &ndash;save</p>
+<h1 id="git上传">
+  git上传
+  <a class="heading-link" href="#git%e4%b8%8a%e4%bc%a0">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h1>
+<p>git init
+git add
+git commit
+git branch
+git remote add origin <a href="https://github.com/username/repo.git"  class="external-link" target="_blank" rel="noopener">https://github.com/username/repo.git</a>
+git push -u origin main</p>
+<h1 id="hugo">
+  Hugo
+  <a class="heading-link" href="#hugo">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h1>
+<p>baseURL = &lsquo;<a href="https://MyPrettyGirl.github.io/My-Hugo-Blog%27"  class="external-link" target="_blank" rel="noopener">https://MyPrettyGirl.github.io/My-Hugo-Blog'</a>
+locale = &lsquo;zh-cn&rsquo;
+title = &lsquo;知影科技&rsquo;
+theme = &ldquo;PaperMod&rdquo;</p>
+<p>[params]
+author = &ldquo;你的名字&rdquo;
+description = &ldquo;这是我的个人博客&rdquo;</p>
+<p>[menu]
+[[menu.main]]
+identifier = &ldquo;about&rdquo;
+name = &ldquo;关于&rdquo;
+url = &ldquo;/about/&rdquo;
+weight = 1
+[[menu.main]]
+identifier = &ldquo;blog&rdquo;
+name = &ldquo;博客&rdquo;
+url = &ldquo;/blog/&rdquo;
+weight = 2</p>
+<h1 id="hugo-papermod-部署问题上传-github-page-后不显示css样式">
+  Hugo Papermod 部署问题：上传 GitHub Page 后不显示CSS样式
+  <a class="heading-link" href="#hugo-papermod-%e9%83%a8%e7%bd%b2%e9%97%ae%e9%a2%98%e4%b8%8a%e4%bc%a0-github-page-%e5%90%8e%e4%b8%8d%e6%98%be%e7%a4%bacss%e6%a0%b7%e5%bc%8f">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h1>
+<p><code>git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod</code></p>
+<p>开发环境: Windows 11
+Theme: PaperMod</p>
+<p>访问网站无法正常显示CSS样式，F12提示报错“Failed to find a valid digest in the ‘integrity’ attribute for resource”。</p>
+<p>最后是在这个stackoverflow 的回答中找到解决方法。</p>
+<p>将以下代码添加到hugo.yml文件，再次上传就正常显示了。
+yml：</p>
+<p>params:
+assets:
+disableFingerprinting: true</p>
+<p>toml:</p>
+<p>[params.assets]
+disableFingerprinting = true</p>
+<h1 id="系统架构">
+  系统架构
+  <a class="heading-link" href="#%e7%b3%bb%e7%bb%9f%e6%9e%b6%e6%9e%84">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h1>
+<p>系统架构
+msinfo32
+处理器架构
+cmd
+echo %PROCESSOR_ARCHITECTURE%</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+        
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2025 -
+    
+    2026
+     Xuwen Yu 
+    ·
+    
+    技术支持 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/Hugo-Coder/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

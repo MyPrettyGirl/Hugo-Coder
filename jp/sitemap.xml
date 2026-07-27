@@ -2,24 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://myprettygirl.github.io/Hugo-Coder/jp/authors/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://myprettygirl.github.io/Hugo-Coder/authors/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://myprettygirl.github.io/Hugo-Coder/en/authors/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://myprettygirl.github.io/Hugo-Coder/jp/authors/"
-                />
-  </url><url>
     <loc>https://myprettygirl.github.io/Hugo-Coder/jp/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://myprettygirl.github.io/Hugo-Coder/zh/categories/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -27,42 +15,20 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://myprettygirl.github.io/Hugo-Coder/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="jp"
                 href="https://myprettygirl.github.io/Hugo-Coder/jp/categories/"
-                />
-  </url><url>
-    <loc>https://myprettygirl.github.io/Hugo-Coder/jp/series/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://myprettygirl.github.io/Hugo-Coder/series/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://myprettygirl.github.io/Hugo-Coder/en/series/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://myprettygirl.github.io/Hugo-Coder/jp/series/"
                 />
   </url><url>
     <loc>https://myprettygirl.github.io/Hugo-Coder/jp/tags/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-cn"
-                href="https://myprettygirl.github.io/Hugo-Coder/tags/"
+                hreflang="zh"
+                href="https://myprettygirl.github.io/Hugo-Coder/zh/tags/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://myprettygirl.github.io/Hugo-Coder/en/tags/"
+                hreflang="zh-cn"
+                href="https://myprettygirl.github.io/Hugo-Coder/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -73,13 +39,13 @@
     <loc>https://myprettygirl.github.io/Hugo-Coder/jp/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-cn"
-                href="https://myprettygirl.github.io/Hugo-Coder/"
+                hreflang="zh"
+                href="https://myprettygirl.github.io/Hugo-Coder/zh/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://myprettygirl.github.io/Hugo-Coder/en/"
+                hreflang="zh-cn"
+                href="https://myprettygirl.github.io/Hugo-Coder/"
                 />
     <xhtml:link
                 rel="alternate"
